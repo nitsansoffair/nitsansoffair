@@ -241,7 +241,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../../img/hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../../img/office-large.jpeg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -266,7 +266,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../../img/office-2-large.jpeg);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
