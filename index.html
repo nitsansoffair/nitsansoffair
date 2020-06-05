@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/icon-font.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <title>Nitsan Soffair - Software Solutions</title>
 </head>
@@ -319,6 +319,11 @@
                             </div>
 
                             <div class="form__group">
+                                <textarea class="form__input" placeholder="Project description" id="description" required></textarea>
+                                <label for="description" class="form__label">Project description</label>
+                            </div>
+
+                            <div class="form__group">
                                 <div class="form__radio-group">
                                     <input type="radio" class="form__radio-input" id="small" name="size"/>
                                     <label for="small" class="form__radio-label">
@@ -337,7 +342,7 @@
                             </div>
 
                             <div class="form__group">
-                                <button class="btn btn--green">Next step &rarr;</button>
+                                <button id="submit" class="btn btn--green">Send</button>
                             </div>
                         </form>
                     </div>

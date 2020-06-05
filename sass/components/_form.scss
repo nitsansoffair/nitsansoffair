@@ -5,6 +5,12 @@
     margin-bottom: 2rem;
   }
 
+  &__group {
+    textarea {
+      resize: none;
+    }
+  }
+
   &__input {
     font-size: 1.5rem;
     font-family: inherit;
