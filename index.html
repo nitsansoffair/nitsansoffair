@@ -10,10 +10,13 @@
     <link rel="stylesheet" href="css/icon-font.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 
     <title>Nitsan Soffair - Software Solutions</title>
 </head>
 <body>
+    <script src="jquery/index.js"></script>
+
     <div class="navigation">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
         <label for="navi-toggle" class="navigation__button">
@@ -22,11 +25,11 @@
         <div class="navigation__background">&nbsp;</div>
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Benefits</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular packages</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Order now</a></li>
+                <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01</span>About</a></li>
+                <li class="navigation__item"><a href="#section-features" class="navigation__link"><span>02</span>Benefits</a></li>
+                <li class="navigation__item"><a href="#section-tours" class="navigation__link"><span>03</span>Popular packages</a></li>
+                <li class="navigation__item"><a href="#section-stories" class="navigation__link"><span>04</span>Stories</a></li>
+                <li class="navigation__item"><a href="#section-book" class="navigation__link"><span>05</span>Order now</a></li>
             </ul>
         </nav>
     </div>
@@ -50,7 +53,7 @@
 
     <main>
         <section class="section-about">
-            <div class="u-center-text u-margin-bottom-big">
+            <div id="section-about" class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Software Solutions
                 </h2>
@@ -88,7 +91,7 @@
             </div>
         </section>
 
-        <section class="section-features">
+        <section id="section-features" class="section-features">
             <div class="row">
                 <div class="col-1-of-4">
                     <div class="feature-box">
@@ -131,7 +134,7 @@
         </section>
 
         <section class="section-tours">
-            <div class="u-center-text u-margin-bottom-big">
+            <div id="section-tours" class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Most popular packages
                 </h2>
@@ -249,7 +252,7 @@
                 </video>
             </div>
 
-            <div class="u-center-text u-margin-bottom-big">
+            <div id="section-stories" class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Satisfied customers
                 </h2>
@@ -295,7 +298,7 @@
             </div>
         </section>
 
-        <section class="section-book">
+        <section id="section-book" class="section-book">
             <div class="row">
                 <div class="book">
                     <div class="book__form">
