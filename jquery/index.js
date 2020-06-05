@@ -13,7 +13,7 @@ $(document).ready(function() {
 
             $.ajax({
                 method: 'POST',
-                url: 'nitsansoffair.herokuapp.com' + '/send-mail' + '?' +
+                url: '/send-mail' + '?' +
                     'from=' + email +
                     '&subject=' + 'Project Order' +
                     '&html=' + '<h3>Project Order</h3><br>' + 'Full name: ' + name + '<br>Description: ' + description,
