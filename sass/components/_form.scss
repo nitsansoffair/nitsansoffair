@@ -11,6 +11,11 @@
     }
   }
 
+  &__success-message {
+    opacity: 0;
+    font-size: $default-font-size;
+  }
+
   &__input {
     font-size: 1.5rem;
     font-family: inherit;

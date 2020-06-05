@@ -6,8 +6,8 @@
   "scripts": {
     "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w",
     "build": "node-sass ./sass/main.scss ./css/style.css",
-    "start": "node index.js",
-    "dev": "env-cmd config/dev.env node index.js"
+    "start": "node server/index.js",
+    "dev": "env-cmd config/dev.env nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,12 @@
   "devDependencies": {
     "dotenv": "^8.2.0",
     "env-cmd": "^8.0.2",
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.1.1",
+    "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "express": "^4.17.1"
   }
