@@ -16,7 +16,7 @@ $(document).ready(function() {
                 url: '/send-mail' + '?' +
                     'from=' + email +
                     '&subject=' + 'Project Order' +
-                    '&html=' + '<h3>Project Order</h3><br>' + 'Full name: ' + name + '<br>Description: ' + description,
+                    '&html=' + '<h3>Project Order</h3><br>' + 'Full name: ' + name + '<br>Email Address: ' + email + '<br>Description: ' + description,
                 success: function(response) {
                     console.log('Email has been sent successfully.');
                     $('.form__success-message').css('opacity', 1);
