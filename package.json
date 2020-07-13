@@ -6,7 +6,7 @@
   "scripts": {
     "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w",
     "build": "node-sass ./sass/main.scss ./css/style.css",
-    "start": "node server/index.js",
+    "start": "env-cmd config/prod.env nodemon server/index.js",
     "dev": "env-cmd config/dev.env nodemon server/index.js"
   },
   "repository": {
